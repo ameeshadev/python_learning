@@ -1,0 +1,23 @@
+a=[10,23.5,"ammi",2+4j]
+b="ammi"
+print(list(b))
+#list creation is known as list packing 
+c=[1,2,3,4,5]
+print (c)
+#this is a packing 
+a,*b,c=c
+print(*b)
+#this called unpacking only one value star* used
+my_list=[1,2,12,15,18,19,21,8,9,15]
+my_list1=[]
+for value in my_list:
+    if value%2==0:
+        my_list1.append(value)
+        print(my_list1)
+#without list comprehension
+new_list=[value for value in my_list if value%2==0]
+print(new_list)
+#using nestedlist is a list contains another list
+a=[30,40,[44,65,78],33,56]
+print(a[2])
+print(a[-3][-3])
