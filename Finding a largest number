@@ -1,0 +1,13 @@
+#I am writing a algorithm for which one is largest number
+num1=int(input("Enter first numbers:"))
+num2=int(input("Enter second numbers:"))
+num3=int(input("Enter third numbers:"))
+#finding largest number 
+if num2>num3:
+    print ("num2 is largest ")
+else:
+    print ("num3 is largest ")
+if num1>num3:
+    print (" num1 is largest ")
+else:
+    print (" num2 is largest ")
